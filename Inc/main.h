@@ -59,6 +59,10 @@
 
 /* Private define ------------------------------------------------------------*/
 
+#define LED_ERROR_Pin GPIO_PIN_13
+#define LED_ERROR_GPIO_Port GPIOC
+#define LED1_Pin GPIO_PIN_2
+#define LED1_GPIO_Port GPIOA
 #define LED_RED_Pin GPIO_PIN_1
 #define LED_RED_GPIO_Port GPIOB
 #define CS_SD_CARD_Pin GPIO_PIN_12

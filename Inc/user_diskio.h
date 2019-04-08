@@ -57,13 +57,6 @@
 
 /* USER CODE BEGIN 0 */
 
-/* Includes ------------------------------------------------------------------*/
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions ------------------------------------------------------- */
-extern Diskio_drvTypeDef  USER_Driver;
-
-/* USER CODE END 0 */
 #define SPI hspi2
 /* Includes ------------------------------------------------------------------*/
 /* Exported types ------------------------------------------------------------*/
@@ -78,6 +71,8 @@ extern Diskio_drvTypeDef  USER_Driver;
 /* This function must be called in period of 1ms                        */
 
 void sdcard_systick_timerproc(void);
+/* USER CODE END 0 */
+   
 #ifdef __cplusplus
 }
 #endif
